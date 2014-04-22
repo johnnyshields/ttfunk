@@ -52,6 +52,7 @@ module TTFunk
               when 6  then extend(TTFunk::Table::Cmap::Format06)
               when 10 then extend(TTFunk::Table::Cmap::Format10)
               when 12 then extend(TTFunk::Table::Cmap::Format12)
+              when 14 then extend(TTFunk::Table::Cmap::Format14)
             end
 
             parse_cmap!
@@ -86,3 +87,4 @@ require 'ttfunk/table/cmap/format04'
 require 'ttfunk/table/cmap/format06'
 require 'ttfunk/table/cmap/format10'
 require 'ttfunk/table/cmap/format12'
+require 'ttfunk/table/cmap/format14'
